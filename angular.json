@@ -23,9 +23,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/fonts/icomoon/styles.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap_limitless.min.css",
+
+              "node_modules/bootstrap/dist/css/layout.min.css",
+              "node_modules/bootstrap/dist/css/components.min.css",
+              "node_modules/bootstrap/dist/css/colors.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c83131c6-7055-43d9-8ea3-ae653a03bfd9"
   }
 }
